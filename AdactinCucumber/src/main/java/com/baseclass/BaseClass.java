@@ -191,4 +191,8 @@ public class BaseClass {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,1000);");
 	}
+	public static void pageDownJs() {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1000);");
+	}
 }
